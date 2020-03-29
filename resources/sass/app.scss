@@ -1,0 +1,24 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.effect-shadow{
+    -webkit-box-shadow: 10px 10px 32px -22px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 32px -22px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 32px -22px rgba(0,0,0,0.75);
+}
+
+.message-false{
+    color: red ;
+    visibility : hidden ;
+}
+
+.message-false-d{
+    color: red ;
+    display : none ;
+}
